@@ -1,64 +1,14 @@
 {
-  "totalMoney":0,
-  "checked":true,
-  "shops":[
-    {
-       "shopName":"苹果专卖店",
-       "degree":1,
-       "totalShopMoney":0,
-       "checked":true,
-       "products":[
-         {
-           "title":"1-Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)",
-           "pic":"assets/computer.jpg",
-           "weight":"3.3kg",
-           "color":"标配版",
-           "ver":"13.3英寸",
-           "price":3000,
-           "qal":1,
-           "checked":true
-         },
-         {
-           "title":"2-Apple MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)",
-           "pic":"assets/computer.jpg",
-           "weight":"13.3kg",
-           "color":"1标配版",
-           "ver":"113.3英寸",
-           "price":13000,
-           "qal":1,
-           "checked":true
-         }
-       ]
-
-    },
-    {
-      "shopName":"华为专卖店",
-      "degree":1,
-      "totalShopMoney":0,
-      "checked":true,
-      "products":[
-        {
-          "title":"1-huawei MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)",
-          "pic":"assets/computer.jpg",
-          "weight":"6.3kg",
-          "color":"标配版",
-          "ver":"18.3英寸",
-          "price":8000,
-          "qal":1,
-          "checked":true
-        },
-        {
-          "title":"2-huawei MacBook Pro 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存/Retina屏 MF839CH/A)",
-          "pic":"assets/computer.jpg",
-          "weight":"90.3kg",
-          "color":"1标配版",
-          "ver":"1138.3英寸",
-          "price":9000,
-          "qal":1,
-          "checked":true
-        }
-      ]
-
-    }
+  "content":[
+    {"pic":"../1img/1.png","name":"手机电脑"},
+    {"pic":"../1img/2.png","name":"国美电器"},
+    {"pic":"../1img/3.png","name":"国美超市"},
+    {"pic":"../1img/4.png","name":"美店组团"},
+    {"pic":"../1img/5.png","name":"分期购"},
+    {"pic":"../1img/6.png","name":"充值服务"},
+    {"pic":"../1img/7.png","name":"国美家装"},
+    {"pic":"../1img/8.png","name":"领美豆"},
+    {"pic":"../1img/9.png","name":"国美管家"},
+    {"pic":"../1img/10.png","name":"我的"}
   ]
 }

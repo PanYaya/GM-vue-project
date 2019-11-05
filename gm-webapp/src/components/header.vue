@@ -2,13 +2,13 @@
   <div class="top">
     <ul>
       <li>
-        <img src="1img/grass_logo.png" alt="">
+        <img src="../assets/1img/grass_logo.png" alt="">
       </li>
       <li class="input">
-        <img src="1img/search.png" alt=""><input type="text" value="华为Mate 30新品上市">
+        <img src="../assets/1img/search.png" alt=""><input type="text" value="华为Mate 30新品上市">
       </li>
       <li>
-        <img src="1img/grass_cart.png" alt="">
+        <img src="../assets/1img/grass_cart.png" alt="">
       </li>
       <li>登录</li>
     </ul>
