@@ -1,12 +1,11 @@
+/* eslint-disable no-new */
 import Vue from 'vue'
-import shouye from './views/shouye.vue'
-import { Swipe, SwipeItem } from './main/caroule'
+import App from './App'
+import VueRouter from 'vue-router'
+import router from './routes'
 
-Vue.component('swipe', Swipe)
-Vue.component('swipe-item', SwipeItem)
+Vue.use(VueRouter)
 new Vue({
-  el:"#app",
-  render(h){
-    return h(shouye)
-  }
-})
+  router,
+  render: h => h(App)
+}).$mount('#app')
