@@ -14,6 +14,7 @@ export default {
     'gm-classify-header': header,
     'gm-classify-main': main
   }
+
 }
 </script>
 <!--<Add "scoped" attribute to limit CSS to this component only>-->

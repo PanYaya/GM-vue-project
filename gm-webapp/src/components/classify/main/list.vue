@@ -1,32 +1,48 @@
 <template>
-  <ul class="list">
-    <li style="border-left: 0.02rem solid red;background-color: white;">
-      <a href="" style="color: red;">热门分类</a>
-    </li>
-    <li><a href="">手机数码</a></li>
-    <li><a href="">电脑办公</a></li>
-    <li><a href="">电视音影</a></li>
-    <li><a href="">空调冰洗</a></li>
-    <li><a href="">厨房卫浴</a></li>
-    <li><a href="">生活电器</a></li>
-    <li><a href="">食品酒水</a></li>
-    <li><a href="">美妆个护</a></li>
-    <li><a href="">母婴玩具</a></li>
-    <li><a href="">营养保健</a></li>
-    <li><a href="">服饰鞋帽</a></li>
-    <li><a href="">运动户外</a></li>
-    <li><a href="">包箱奢品</a></li>
-    <li><a href="">钟表首饰</a></li>
-    <li><a href="">住宅家居</a></li>
+  <ul>
+    <li  v-for=" (n,i) in list" :class="{active:i===isActive}" :key="i" @click="fun(i)">{{n}}</li>
   </ul>
 </template>
 
 <script>
 export default {
-  name: 'list'
+  name: 'list',
+  // isActive: 0,
+  data: function () {
+    return {
+      isActive: 0,
+      'list': [ '手机数码', '电脑办公', '电视音影', '空调冰洗',
+        '厨房卫浴', '生活电器', '食品酒水', '美妆个护', '母婴玩具',
+        '营养保健', '服饰鞋帽', '运动户外', '包箱奢品', '钟表首饰', '住宅家居']
+    }
+  },
+  methods: {
+
+    fun (i) {
+      this.isActive = i
+    }
+  }
 }
 </script>
 
 <style scoped>
+  ul{
+    width: 20%;
+    background-color:#f6f6f6;
+    float: left;
+  }
+  li{
+    height: 0.48rem;
+    line-height: 0.48rem;
+    font-size: 0.16rem;
+    font-weight: 600;
+    margin-left: 0.02rem;
+    border-bottom: 0.01rem solid rgb(216, 213, 213) ;
+    padding-left: 0.03rem;
 
+  }
+  .active{
+    color: red;
+    border-left: 0.02rem solid red;
+  }
 </style>

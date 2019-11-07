@@ -50,5 +50,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .carousel{
+    height: 1.75rem;
+    box-sizing: border-box;
 
+  }
+  .carousel img{
+    height:1.75rem;
+  }
 </style>

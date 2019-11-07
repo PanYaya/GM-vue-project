@@ -1,0 +1,225 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+    margin:0;
+    padding:0;
+    }
+    body{
+        font-family: "微软雅黑";
+        font-size: 0.14rem;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        border: none;
+    }
+    .clear{
+    clear:both;height:0px;overflow:hidden;
+    }
+    html{
+        font-size: 26.67vw;
+    }
+   
+    /*.top{*/
+    /*    width: 100%;*/
+    /*    height: 0.53rem;*/
+    /*    padding: 0rem 0.12rem;*/
+    /*    box-sizing: border-box;*/
+    /*    background-color: white;*/
+    /*    border-bottom: 0.01rem solid rgb(216, 213, 213);*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*    box-sizing: border-box;*/
+    /*}*/
+    /*.top div{*/
+    /*    !* width: 30%; *!*/
+    /*    height: 0.53rem;*/
+    /*    float: left;*/
+    /*    text-align: center;*/
+    /*}*/
+    /*.top div img{*/
+    /*    width: 0.3rem;*/
+    /*    height: 0.3rem;*/
+    /*    position: relative;*/
+    /*    top: 0.08rem;*/
+    /*}*/
+    /*.top div span{*/
+    /*    display: inline-block;*/
+    /*    line-height: 0.53rem;*/
+    /*    */
+    /*}*/
+    /*.center{*/
+    /*    width: 69%;*/
+    /*    height: 0.53rem;*/
+    /*    text-align: center;*/
+    /*    position: relative;*/
+    /*    left: 0.20rem;*/
+    /*}*/
+    /*.center span{*/
+    /*    display: inline-block;*/
+    /*    line-height: 0.53rem;*/
+    /*    font-size: 0.18rem;*/
+    /*    font-weight: 600;*/
+    /*}*/
+    /*.right span{*/
+    /*    padding-right:0.1rem ;*/
+    /*}*/
+
+    /*.nav{*/
+    /*    width: 100%;*/
+    /*    height: 0.35rem;*/
+    /*    padding: 0.15rem 0.2rem 0rem 0.2rem;*/
+    /*    position: relative;*/
+    /*}*/
+    /*.nav>img{*/
+    /*    display: inline-block;*/
+    /*    width: 0.37rem;*/
+    /*    height: 0.17rem;*/
+    /*}*/
+    /*.nav>span:last-child{*/
+    /*    position: absolute;*/
+    /*    top: 0.16rem;*/
+    /*    font-size: 0.16rem;*/
+    /*    font-weight: 600;*/
+    /*}*/
+    /*.nav>span:last-child>img{*/
+    /*    position: relative;*/
+    /*    top: 0.03rem;*/
+    /*}*/
+    /*.content{*/
+    /*    width: 100%;*/
+    /*    height: 1.87rem;*/
+    /*    padding:0rem 0.2rem;*/
+    /*   */
+    /*    margin-bottom:0.12rem ;*/
+    /*}*/
+    /*.shopping-car{*/
+    /*    width: 89%;*/
+    /*    display: flex;*/
+    /*    border:0.01rem rgb(221, 220, 220) solid;*/
+    /*    box-shadow: 0.1rem rgb(216, 213, 213);*/
+    /*}*/
+    /*.shopping-car .shopping img{*/
+    /*    width: 0.9rem;*/
+    /*    height: 0.9rem;*/
+    /*}*/
+    /*.shopping-num p{*/
+    /*    width:2.2rem;*/
+    /*    height: 0.37rem;*/
+    /*    overflow: hidden; */
+    /*}*/
+    /*.shopping-num>span{*/
+    /*    border: 0.01rem red solid;*/
+    /*    color: red;*/
+    /*}*/
+    /*.price{*/
+    /*    margin-top: 0.2rem;*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+    /*.price>span>button{*/
+    /*    border: none;*/
+    /*    background-color: rgb(233, 227, 227);*/
+    /*}*/
+    /*.delete{*/
+    /*    text-align: right;*/
+    /*    color: gray;*/
+    /*}*/
+    /*.delete>span:last-child{*/
+    /*    margin-left:0.3rem ;*/
+    /*}*/
+    /*.title-bar{*/
+    /*    width: 100%;*/
+    /*    height: 0.49rem;*/
+    /*    background-color:#f3f5f7;*/
+    /*    text-align: center;*/
+    /*    color: rgb(247, 55, 41);*/
+    /*    position: relative;*/
+    /*}*/
+    /*.title-bar .line{*/
+    /*  margin: auto;*/
+    /*    height: 0.25rem;*/
+    /*    width: 1.8rem;*/
+    /*    color: red;*/
+    /*    border-bottom: 0.01rem red solid;*/
+    /*}*/
+    /*.title-bar h2{*/
+    /*    position: absolute;*/
+    /*    top: 0.1rem;*/
+    /*    left: 1.3rem;*/
+    /*    background-color: rgb(248, 239, 239);*/
+    /*    border-left:0.1rem  rgb(248, 239, 239) solid ;*/
+    /*    border-right:0.1rem  rgb(248, 239, 239) solid ;*/
+    /*}*/
+    /*.meddle{*/
+    /*    width:100%;*/
+    /*    background-color:#f3f5f7;*/
+    /*}*/
+    /*.recommend{*/
+    /*    width: 95%;*/
+    /*    padding: 0.1rem 0.05rem 0.1rem 0.12rem;*/
+    /*    display: flex;*/
+    /*    */
+    /*}*/
+    /*.recommend>div{*/
+    /*    width: 1.75rem;*/
+    /*    background-color: white;*/
+    /*}*/
+    /*.recommend>div:first-child{*/
+    /*    margin: 0rem 0.01rem 0.07rem 0rem;*/
+    /*}*/
+    /*.recommend>div:last-child{*/
+    /*    margin: 0rem 0.03rem 0.07rem 0.1rem;*/
+    /*}*/
+    /*.product-name{*/
+    /*    padding: 0.1rem;*/
+    /*    height: 0.30rem;*/
+    /*    overflow: hidden;*/
+    /*    !* text-overflow:ellipsis; *!*/
+    /*   */
+    /*}*/
+    /*.recommend>div>p:last-child{*/
+    /*    padding: 0.1rem;*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+    /*.recommend>div>p:last-child>span:first-child{*/
+    /*    color: red;*/
+    /*}*/
+    /*.recommend>div>img{*/
+    /*    width: 1.6rem;*/
+    /*    height: 1.6rem;*/
+    /*}*/
+    /*.recommend>div>p>span>img{*/
+    /*    width: 0.24rem;*/
+    /*    height: 0.24rem;*/
+    /*}*/
+
+    /*.bottom{*/
+    /*    width: 94%;*/
+    /*    height: 0.5rem;*/
+    /*    padding:0rem 0rem 0rem 0.2rem; */
+    /*    display:flex;*/
+    /*    justify-content: space-between;*/
+    /*    border-top:0.01rem solid rgb(216, 213, 213);*/
+    /*}*/
+    /*.bottom img{*/
+    /*    width: 0.19rem;*/
+    /*    height: 0.19rem;*/
+    /*    position: relative;*/
+    /*    top: 0.03rem;*/
+
+    /*}*/
+    /*.bottom button{*/
+    /*    height: 0.5rem;*/
+    /*    background-color:red; */
+    /*    border: none;*/
+    /*    color: white;*/
+    /*    text-align: center;*/
+    /*    font-weight: 500;*/
+    /*}*/
+    /*.bottom>span:first-child{*/
+    /*    padding-top:0.1rem; */
+    /*}*/

@@ -7,6 +7,7 @@
 </template>
 
 <script>
+// import BottomBar from '../components/bottombar/bottombar'
 import header from '../components/home/header'
 import footer from '../components/home/footer'
 import main from '../components/home/main'
@@ -16,6 +17,7 @@ export default {
     'gm-sy-header': header,
     'gm-sy-footer': footer,
     'gm-sy-main': main
+    // BottomBar
   },
   data () {
     return {

@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style scoped>
-
+  .main{
+    width: 100%;
+    height: 6.23rem;
+  }
 </style>

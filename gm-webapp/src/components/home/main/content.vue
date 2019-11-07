@@ -76,5 +76,35 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .content{
+    width: 100%;
+    text-align: center;
+  }
+  .content>ul{
+    width: 100%;
+    height: 1.88rem;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .content ul li{
+    width: 20%;
+    margin-top:0.06rem ;
 
+  }
+  .content ul li a{
+    color: black;
+  }
+  .content ul li a>div{
+    width:100%;
+    height:0.52rem;
+    margin-bottom: 0.06rem;
+    text-align: center;
+  }
+  .content ul li a>div>img{
+    width:100%;
+    height: 100%;
+    border:none;
+  }
 </style>
