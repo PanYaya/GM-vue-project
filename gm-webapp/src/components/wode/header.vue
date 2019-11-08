@@ -2,10 +2,10 @@
   <div class="top">
     <ul>
       <li @click="go">
-        <img src="http://39.107.139.165//2img/top1.png" alt="">
+        <img src="http://39.107.139.165/2img/top1.png" alt="">
       </li>
       <li class="input">
-        <input type="text" value="华为Mate 30新品上市"><img src="http://39.107.139.165/2img/search.png" alt="">
+        <span>我的国美</span>
       </li>
       <li>
         <img src="http://39.107.139.165/2img/top2.png" alt="">
@@ -19,23 +19,22 @@ export default {
   name: 'vheader',
   methods: {
     go () {
-      this.$router.push({ path: '/' })
+      this.$router.push({ path: '/carts' })
     }
   }
 }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
   .top{
     width: 100%;
     height: 0.53rem;
     padding: 0rem 0.12rem;
     box-sizing: border-box;
-    /* position: fixed; */
-    /* z-index: 9999; */
     background-color: white;
     border-bottom: 0.01rem solid rgb(216, 213, 213);
+    position: relative;
   }
   .top ul{
     display: flex;
@@ -53,27 +52,11 @@ export default {
   .top ul li img{
     width: 0.288rem;
   }
-  .input{
-    position: relative;
-    margin: 0 0 0 0.1rem;
-    height: 0.3rem;
-    border-radius: 0.15rem;
-    border: none;
-    background-color: #f6f6f6;
-    overflow: hidden;
-    width: 80%;
-  }
-  .input input{
-    border: none;
-    height: 0.3rem;
-    width: 80%;
-    color: #999;
-    box-sizing: border-box;
-    line-height: 0.1rem;
-    background-color: #f6f6f6;
-    position: relative;
-    top: -0.1rem;
-    padding-left: 0.1rem;
+  .top span{
+    position: absolute;
+    top:0.14rem;
+    left: 1.6rem;
+    font-size:0.16rem;
 
   }
 </style>

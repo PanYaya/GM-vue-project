@@ -6,6 +6,7 @@
 </template>
 
 <script>
+
 import header from '../components/classify/header'
 import main from '../components/classify/main'
 export default {

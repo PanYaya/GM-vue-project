@@ -1,11 +1,13 @@
 <template>
   <div class="content">
-    <div v-for="(v,i) in arr" :key="i">
+    <div  v-for="(v,i) in arr" :key="i"  :i="i">
+<!--      <div v-for="(v,i) in arr" :key="i" >-->
       <p>{{v.title}}</p>
       <ul >
-        <shop-product v-for="(m,j) in arr" :key="j"></shop-product>
+        <shop-product v-for="(val,sid) in v.products" :key="sid"  :data="val" :sid="sid"></shop-product>
       </ul>
     </div>
+    <p>热门品牌</p>
     <ul class="hot">
       <li v-for="(n,k) in imgurl" :key="k">
         <a href="">
@@ -19,7 +21,7 @@
 <script>
 import item from './item'
 export default {
-  name: 'list',
+  name: 'content',
   components: {
     'shop-product': item
   },
@@ -63,17 +65,19 @@ export default {
       'imgurl': [
         'http://39.107.139.165/2img/haix_1.png',
         'http://39.107.139.165/2img/ping_2.png',
-        'http://39.107.139.165/2img/naji_9.png',
         'http://39.107.139.165/2img/laob_3.png',
-        'http://39.107.139.165/2img/laob_4.png',
-        'http://39.107.139.165/2img/laob_5.png',
-        'http://39.107.139.165/2img/10.png',
-        'http://39.107.139.165/2img/10.png',
-        'http://39.107.139.165/2img/10.png'
-      ]
+        'http://39.107.139.165/2img/feilp_5.png',
+        'http://39.107.139.165/2img/mide_4.png',
+        'http://39.107.139.165/2img/naji_9.png',
+        'http://39.107.139.165/2img/huaw_7.png',
+        'http://39.107.139.165/2img/mi_8.png',
+        'http://39.107.139.165/2img/nike_6.png']
 
     }
   }
+  // methods:{
+  //   "this".$router.replace({ path: '/' })
+  // }
 }
 
 </script>
@@ -86,17 +90,35 @@ export default {
     /* padding: 0.08rem; */
     float: left;
   }
-  .content p{
+ p{
     padding-bottom:0.1rem;
     color: gray;
     font-size: 0.12rem;
   }
-  .content  ul{
+  .content>div ul{
     width: 100%;
      height: 1.15rem;
     display: flex;
   }
+  /*.hot{*/
+  /* */
+  /*  */
+  /*}*/
+  .hot{
+    /*height: 3.48rem;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .hot li{
-      height:0.5rem;
+    height:0.5rem;
+    width: 30%;
+  }
+  .hot li img{
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 </style>

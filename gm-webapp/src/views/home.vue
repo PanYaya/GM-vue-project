@@ -8,6 +8,7 @@
 
 <script>
 // import BottomBar from '../components/bottombar/bottombar'
+import gmApi from '../apis/gmApi'
 import header from '../components/home/header'
 import footer from '../components/home/footer'
 import main from '../components/home/main'
@@ -21,8 +22,19 @@ export default {
   },
   data () {
     return {
-      cartInfo: [] // 页面的数据模型
+      shop: [] // 页面的数据模型
     }
+  },
+  methods: {
+    _initPageData () {
+      gmApi.getGMInfoByUserId(data => {
+        console.log(data)
+        this.shop = data
+      })
+    }
+  },
+  created () {
+    this._initPageData()
   }
 }
 </script>

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-// import BottomBar from '../components/bottombar/bottombar'
+
 import header from '../components/carts/header'
 import footer from '../components/carts/footer'
 import main from '../components/carts/main'

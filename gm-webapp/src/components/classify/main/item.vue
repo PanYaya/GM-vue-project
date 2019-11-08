@@ -1,8 +1,8 @@
 <template>
   <li>
     <a href="">
-      <img :src="'m.products'.imgurl" alt="">
-<!--      <span>{{arr.name}}</span>-->
+      <img :src="data.imgurl" alt="">
+      <span>{{data.name}}</span>
     </a>
   </li>
 </template>
@@ -10,7 +10,7 @@
 <script>
 export default {
   name: 'item',
-  props: ['arr']
+  props: [ 'data', 'sid']
 }
 </script>
 

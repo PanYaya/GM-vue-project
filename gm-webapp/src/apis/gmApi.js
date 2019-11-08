@@ -1,13 +1,13 @@
 import { BASEURL } from '../commons/Config'
-const CARTURL = `${BASEURL}/api/cartinfo`
+const GMTURL = `${BASEURL}/shop`
 
 export default {
 
   /**
      * 获取店铺的信息
      */
-  getCartInfoByUserId (cb) {
-    fetch(CARTURL).then(res => {
+  getGMInfoByUserId (cb) {
+    fetch(GMTURL).then(res => {
       res.json().then(cb)
     })
   }
