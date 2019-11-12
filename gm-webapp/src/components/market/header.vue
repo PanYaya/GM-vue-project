@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <ul>
-      <li>
+      <li @click="go">
         <img src="http://39.107.139.165/2img/top1.png" alt="">
       </li>
       <li class="input">
@@ -16,7 +16,13 @@
 
 <script>
 export default {
-  name: 'vheader'
+  name: 'vheader',
+  methods: {
+    go () {
+      this.$router.replace({ path: '/' })
+    }
+  }
+
 }
 </script>
 

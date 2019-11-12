@@ -1,5 +1,5 @@
-import { BASEURL } from '../commons/Config'
-const GMTURL = `${BASEURL}/shop`
+
+const GMTURL = `http://10.35.167.56:3003/product`
 
 export default {
 

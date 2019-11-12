@@ -9,14 +9,14 @@
 
 <script>
 import carousel from './main/carousel'
-import content from './main/content'
+import vcontent from './main/vcontent'
 import meddle from './main/meddle'
 import select from './main/select'
 export default {
   name: 'vmain',
   components: {
     'gm-carousel-figure': carousel,
-    'gm-content': content,
+    'gm-content': vcontent,
     'gm-meddle': meddle,
     'gm-select': select
 

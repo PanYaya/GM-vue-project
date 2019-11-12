@@ -21,9 +21,9 @@ export default {
 
     fun (i) {
       this.isActive = i
-
     }
   }
+  // props: ['data', 'sid']
 }
 </script>
 

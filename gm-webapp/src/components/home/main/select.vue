@@ -13,5 +13,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .select{
+    width: 95%;
+    padding: 0.12rem;
+    display: flex;
+    height: 1.2rem;
+  }
+  .select a{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+  .select a img{
+    width: 100%;
+    height: 100%;
+  }
 
 </style>

@@ -53,62 +53,62 @@ body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
     /*    left: 1.6rem;*/
     /*    font-size:0.16rem; */
     /*}*/
-    .Carousel-figure{
-        height: 2rem;
-        width: 100%;
-        background-image: url(http://39.107.139.165/6img/lunbo.jpg);
-        background-size:100%; 
-        text-align: center;
-        position: relative;
-    }
-    .Carousel-figure p{
-        position: absolute;
-        top: 0.1rem;
-        left: 0.37rem;
-        width:80%;
-        border-radius: 0.0rem;
-        color: #999;
-        font-size: .26rem;
-        background: #fff;
-        border-radius: .45rem;
-        box-sizing: border-box;
-       
-    }
-    .Carousel-figure p img{
-        width: 0.2rem;
-        height: 0.18rem;
-    }
-    .Carousel-figure p input{
-       border: none;
-       position: relative;
-       top: -0.04rem;
-    }
-    .product img{
-       width: 24%;
-    }
-    .cu{
-        height: 0.22rem;
-        font-size: 0.12rem;
-        padding: 0.05rem  0rem 0rem 0.1rem;
-    }
-    .cu img{
-        width:0.12rem;
-        height: 0.12rem;
-    }
-    .cu span:last-child{
-        display: inline-block;
-        margin-left:0.1rem;
-        color: rgb(6, 182, 252); 
-    }
-    .nav img{
-        width: 100%;
-        height: 0.4rem;
-    }
-    .content img{
-        width:24%;
-        height: 0.63rem;
-        
-    }
+    /*.Carousel-figure{*/
+    /*    height: 2rem;*/
+    /*    width: 100%;*/
+    /*    background-image: url(http://39.107.139.165/6img/lunbo.jpg);*/
+    /*    background-size:100%; */
+    /*    text-align: center;*/
+    /*    position: relative;*/
+    /*}*/
+    /*.Carousel-figure p{*/
+    /*    position: absolute;*/
+    /*    top: 0.1rem;*/
+    /*    left: 0.37rem;*/
+    /*    width:80%;*/
+    /*    border-radius: 0.0rem;*/
+    /*    color: #999;*/
+    /*    font-size: .26rem;*/
+    /*    background: #fff;*/
+    /*    border-radius: .45rem;*/
+    /*    box-sizing: border-box;*/
+    /*   */
+    /*}*/
+    /*.Carousel-figure p img{*/
+    /*    width: 0.2rem;*/
+    /*    height: 0.18rem;*/
+    /*}*/
+    /*.Carousel-figure p input{*/
+    /*   border: none;*/
+    /*   position: relative;*/
+    /*   top: -0.04rem;*/
+    /*}*/
+    /*.product img{*/
+    /*   width: 24%;*/
+    /*}*/
+    /*.cu{*/
+    /*    height: 0.22rem;*/
+    /*    font-size: 0.12rem;*/
+    /*    padding: 0.05rem  0rem 0rem 0.1rem;*/
+    /*}*/
+    /*.cu img{*/
+    /*    width:0.12rem;*/
+    /*    height: 0.12rem;*/
+    /*}*/
+    /*.cu span:last-child{*/
+    /*    display: inline-block;*/
+    /*    margin-left:0.1rem;*/
+    /*    color: rgb(6, 182, 252); */
+    /*}*/
+    /*.nav img{*/
+    /*    width: 100%;*/
+    /*    height: 0.4rem;*/
+    /*}*/
+    /*.content img{*/
+    /*    width:24%;*/
+    /*    height: 0.63rem;*/
+    /*    */
+    /*}*/
     /*footer{*/
     /*    border-top: 1px rgb(194, 191, 191) solid;*/
     /*    !* position: fixed; *!*/

@@ -23,5 +23,5 @@ export default {
 </script>
 
 <style scoped>
-  @import "../assets/css/5.css";
+  @import "../assets/css/1.css";
 </style>

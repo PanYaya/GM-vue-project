@@ -5,12 +5,11 @@ import Classify from '../views/classify'
 import Carts from '../views/carts'
 import Wode from '../views/wode'
 import Login from '../views/login'
-// import Content from '../classify/main/login'
-
+import Market from '../views/market'
+import Register from '../views/register'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
@@ -41,13 +40,19 @@ export default new Router({
       name: 'Login',
       component: Login,
       meta: { keepAlive: true }
+    },
+    {
+      path: '/market',
+      name: 'Market',
+      component: Market,
+      meta: { keepAlive: true }
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register,
+      meta: { keepAlive: true }
     }
-    // {
-    //   path: '/content',
-    //   name: 'Content',
-    //   component: Content,
-    //   meta: { keepAlive: true }
-    // }
   ]
 })
 

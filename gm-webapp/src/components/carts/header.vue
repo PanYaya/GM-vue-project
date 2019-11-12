@@ -1,20 +1,25 @@
 <template>
   <div class="top">
-    <div class="left">
-      <img src="http://39.107.139.165/2img/top1.png" alt="" style="width: 0.4rem; height: 0.4rem;">
-    </div>
-    <div class="center">
-      <span>购物车</span><img src="http://39.107.139.165/3img/address.png" alt="">
-    </div>
-    <div class="right">
-      <span>编辑</span><img src="http://39.107.139.165/2img/top2.png" alt="">
-    </div>
+  <div class="left" @click="go">
+    <img src="http://39.107.139.165/2img/top1.png" alt="" style="width: 0.4rem; height: 0.4rem;">
   </div>
+  <div class="center">
+    <span>购物车</span><img src="http://39.107.139.165/3img/address.png" alt="">
+  </div>
+  <div class="right">
+    <span>编辑</span><img src="http://39.107.139.165/2img/top2.png" alt="">
+  </div>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'vheader'
+  name: 'vheader',
+  methods: {
+    go () {
+      this.$router.push({ path: '/market' })
+    }
+  }
 }
 </script>
 

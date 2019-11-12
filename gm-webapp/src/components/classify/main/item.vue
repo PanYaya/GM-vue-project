@@ -31,7 +31,7 @@ li a span{
     color: gray;
     font-size: 0.12rem;
   }
-  .content ul li a img{
+img{
     width: 100%;
     height: 100%;
   }

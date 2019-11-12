@@ -28,5 +28,5 @@ export default {
 </script>
 <!--<Add "scoped" attribute to limit CSS to this component only>-->
 <style scoped>
-@import "../assets/css/3.css";
+@import "../assets/css/1.css";
 </style>

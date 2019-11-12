@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div class="vnav">
     <span><img src="http://39.107.139.165/3img/select.png" alt=""></span>
     <img src="http://39.107.139.165/3img/dp.png" alt="">
     <!-- <span>梦克拉旗舰店&nbsp;<span style="color: rgb(197, 193, 193);height: 0.2rem;">></span></span> -->
@@ -16,24 +16,24 @@ export default {
 </script>
 
 <style scoped>
-  .nav{
+  .vnav{
     width: 100%;
     height: 0.35rem;
     padding: 0.15rem 0.2rem 0rem 0.2rem;
     position: relative;
   }
-  .nav>img{
+  .vnav>img{
     display: inline-block;
     width: 0.37rem;
     height: 0.17rem;
   }
-  .nav>span:last-child{
+  .vnav>span:last-child{
     position: absolute;
     top: 0.16rem;
     font-size: 0.16rem;
     font-weight: 600;
   }
-  .nav>span:last-child>img{
+  .vnav>span:last-child>img{
     position: relative;
     top: 0.03rem;
   }

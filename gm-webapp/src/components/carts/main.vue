@@ -10,15 +10,15 @@
 <script>
 import nav from './main/nav'
 import title from './main/title'
-import content from './main/content'
+import vcontent from './main/vcontent'
 import meddle from './main/meddle'
 export default {
   name: 'vmain',
   components: {
-    'gm-cars-content': content,
+    'gm-cars-content': vcontent,
     'gm-cars-nav': nav,
     'gm-cars-meddle': meddle,
-    'gm-cars-title': title,
+    'gm-cars-title': title
   }
 }
 </script>

@@ -10,14 +10,19 @@
       <li>
         <img src="../../assets/1img/grass_cart.png" alt="">
       </li>
-      <li>登录</li>
+      <li @click="go">登录</li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'vheader'
+  name: 'vheader',
+  methods: {
+    go () {
+      this.$router.replace({ path: '/login' })
+    }
+  }
 }
 </script>
 
