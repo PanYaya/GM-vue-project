@@ -15,7 +15,8 @@
 
         <div class="price">
           <span style="color: red;">￥13999</span>
-          <span><button>-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span>1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button>+</button></span>
+          <span><button @click="reduce">-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span>{{num}}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button @click="add">+</button></span>
         </div> <br>
         <p class="delete"><span>移入收藏</span> <span>删除</span></p>
       </div>
@@ -27,14 +28,26 @@
 <script>
 export default {
   name: 'vcontent',
-  data () {
+  data: function () {
     return {
-      num: 1
+      num: '1'
     }
   },
+  // computed: {
+  //   reduce () {
+  //     return this.num--
+  //   },
+  //   add () {
+  //     return this.num++
+  //   }
+  // }
+
   methods: {
-    handleChange (value) {
-      console.log(value)
+    reduce () {
+      return this.num--
+    },
+    add () {
+      return this.num++
     }
   }
 }
